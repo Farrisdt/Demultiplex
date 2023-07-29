@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 Problem: Need to know which records are index swapped/have undetermined indexes. 
-Output: 52 files. One for each read for all pairs with an index not found in the list or of too low quality. One for each read for pairs who indexes do not match. One each for read 1 and read 2 per index. (24 indexs X 2 + 2 unknown + 2 mismatch = 52)
+Output: 52 files. One for each read for all pairs with an index not found in the list or of too low quality. One for each read for pairs who indexes do not match. One each for read 1 and read 2 per index. (24 indexs X 2 + 2 unknown + 2 mismatch = 52). Also the number of read-pairs in matched, unmatched, and unknown files.
 
 def demultiplex(r1: str, r2: str, r3: str, r4: str):
     '''Takes in the paths, as strings, to the 4 file outputs of illumina seqeuncing. Outputs 52 files, sorted by read number and index including a mismatch file and an unknown file.'''
@@ -39,7 +39,7 @@ def demultiplex(r1: str, r2: str, r3: str, r4: str):
                 write to unknown file (due to unknown index)
                 add 1 to the third index of the list in the index dict
 
-    report out the variables stored in the index dict.
+    report out the variables stored in the index dict. (the number of read-pairs for each type of file)
     close all 52 files by using an edited version of the same loop from the begining.
 
 def reverse_compliment_barcode(seq: str) -> str:

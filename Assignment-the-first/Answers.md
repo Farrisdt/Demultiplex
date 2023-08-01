@@ -17,7 +17,16 @@
     ![Index 2](https://github.com/Farrisdt/Demultiplex/blob/d9e14274947488bf69027a560544fe479d7c270d/Assignment-the-first/Index2QualityScores.png)
 ![Read 1](https://github.com/Farrisdt/Demultiplex/blob/d9e14274947488bf69027a560544fe479d7c270d/Assignment-the-first/Read1QualityScores.png)
 ![Read 2](https://github.com/Farrisdt/Demultiplex/blob/d9e14274947488bf69027a560544fe479d7c270d/Assignment-the-first/Read2QualityScores.png)
+    ii. What is a good quality score cutoff for index reads and biological read pairs to utilize for sample identification and downstream analysis, respectively? Justify your answer.
     
+    iii. How many indexes have undetermined (N) base calls? (Utilize your command line tool knowledge. Submit the command(s) you used. CHALLENGE: use a one-line command)
+   Index 1:
+   Index 2:
+   
+'''
+/projects/bgmp/shared/2017_sequencing/1294_S1_L008_R2_001.fastq.gz | awk 'NR % 4 == 2' | tr -cd 'N' | wc -c
+'''
+
 ## Part 2
 1. Define the problem
 2. Describe output

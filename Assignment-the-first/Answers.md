@@ -12,7 +12,7 @@
 
 2. Per-base NT distribution
     1. Use markdown to insert your 4 histograms here.
-    2. **YOUR ANSWER HERE**
+    ![](https://github.com/Farrisdt/Demultiplex/blob/3785180ffdac23f7f78845f2fbc7ad47a57da0f7/Assignment-the-first/Index1QualityScores.png)
     3. **YOUR ANSWER HERE**
     
 ## Part 2

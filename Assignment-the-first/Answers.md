@@ -5,15 +5,17 @@
 
 | File name | label | Read length | Phred encoding |
 |---|---|---|---|
-| 1294_S1_L008_R1_001.fastq.gz | Read 1 | 101 | Phred33 |
-| 1294_S1_L008_R2_001.fastq.gz | Index 1 | 8 | Phred33 |
-| 1294_S1_L008_R3_001.fastq.gz | Index 2 | 8 | Phred33 |
-| 1294_S1_L008_R4_001.fastq.gz | Read 2 | 101 | Phred33 |
+| 1294_S1_L008_R1_001.fastq.gz | Read 1 | 101 | Phred+33 |
+| 1294_S1_L008_R2_001.fastq.gz | Index 1 | 8 | Phred+33 |
+| 1294_S1_L008_R3_001.fastq.gz | Index 2 | 8 | Phred+33 |
+| 1294_S1_L008_R4_001.fastq.gz | Read 2 | 101 | Phred+33 |
 
 2. Per-base NT distribution
     1. Use markdown to insert your 4 histograms here.
-    ![](https://github.com/Farrisdt/Demultiplex/blob/3785180ffdac23f7f78845f2fbc7ad47a57da0f7/Assignment-the-first/Index1QualityScores.png)
-    3. **YOUR ANSWER HERE**
+    ![Index 1](https://github.com/Farrisdt/Demultiplex/blob/3785180ffdac23f7f78845f2fbc7ad47a57da0f7/Assignment-the-first/Index1QualityScores.png)
+    ![Index 2](https://github.com/Farrisdt/Demultiplex/blob/d9e14274947488bf69027a560544fe479d7c270d/Assignment-the-first/Index2QualityScores.png)
+![Read 1](https://github.com/Farrisdt/Demultiplex/blob/d9e14274947488bf69027a560544fe479d7c270d/Assignment-the-first/Read1QualityScores.png)
+1[Read 2](https://github.com/Farrisdt/Demultiplex/blob/d9e14274947488bf69027a560544fe479d7c270d/Assignment-the-first/Read2QualityScores.png)
     
 ## Part 2
 1. Define the problem

@@ -25,10 +25,10 @@
 
    Index 1: 3976613
 
-   Index 2: 3329901
+   Index 2: 3328051
    
 ```
-/projects/bgmp/shared/2017_sequencing/1294_S1_L008_R2_001.fastq.gz | awk 'NR % 4 == 2' | tr -cd 'N' | wc -c
+/projects/bgmp/shared/2017_sequencing/1294_S1_L008_R2_001.fastq.gz | awk 'NR % 4 == 2' | tr -cd 'N' | wc -l
 ```
 
 ## Part 2

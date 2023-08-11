@@ -171,3 +171,5 @@ args: (need to know if running)
 There is a graphics graveyard at the bottom of the code for when the heatmap was going to be colored instead of just a chart. If this ends up being code I use I will fix and implement it, but as of now it's not needed. I believe the chart should be easily heat-mappable in the future with the way I've set it up. 
 ###### Heatmap idea:
 Just make an array of color values while making the chart. So as looping have a for statement that just grabs the value (percent or raw or both) and then if <10 make blue, 10-20 make green, etc.
+
+Data output to results.txt files within created folder along with all fastq files. All results have been copied in Results/ folder within Assignment-the-third for ease of access. Names changed to reflect quality score cut off as to not mix them up (results_##.txt). All data is tab deliniated for easy processing in bash/python. I would like to make them in markup eventually if I continue using this program. 

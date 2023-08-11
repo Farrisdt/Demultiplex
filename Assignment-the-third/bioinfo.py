@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-#version 2.2, non-functional currently
-#Author: Farris Tedder, for Bi621
+#version 3.0
+#Author: Farris Tedder
 
-'''This module is a collection of bioinformatics functions written for Bi621 at University of Oregon (Summer 2023).'''
+'''This module is a collection of bioinformatics functions written for the BGMP program at University of Oregon (Summer 2023).'''
 
 ###Constants###
 DNA_bases = set('ATGCNatcgn')
